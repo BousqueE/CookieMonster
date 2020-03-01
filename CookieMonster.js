@@ -682,7 +682,7 @@ CM.Disp.GetTimeColor = function(price, bank, cps, time) {
 	var color;
 	var text;
 	if (bank >= price) {
-		color = CM.Disp.colorGreen;
+		color = CM.Disp.colorBlue;
 		if (CM.Config.TimeFormat) {
 			text = '00:00:00:00:00';
 		}
